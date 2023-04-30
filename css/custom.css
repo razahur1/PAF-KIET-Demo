@@ -1,0 +1,219 @@
+
+
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'PT Sans Bold';
+    line-height: 18px;
+}
+
+h3{
+    font-size: 22px;
+    font-family: 'PT Sans';
+    line-height: 24px;
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'PT Sans';
+    line-height: 24px;
+        color: brown;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'PT Sans';
+    line-height: 20px;
+}
+
+
+/* Header */
+
+header {
+    padding: 25px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul {
+   
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 75px;
+    padding-top: 53px;
+}
+
+.navigation ul li:last-child {
+    margin: 0;
+}
+
+.navigation ul li a {
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: brown;
+    font-family: 'PT Sans Bold';
+}
+.logo img{
+    
+    margin-left: -80px;
+    margin-top: 35px;
+}
+/* Header-end*/
+
+/* Hero Section */
+.heroSection {
+    background-image: url(../images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 389px;
+}
+/* Hero Section End*/
+
+/*Features*/
+#features{
+      background: #ffffff;
+}
+.features-container{
+      max-width: 1400px;
+      margin: auto;
+}
+.features-heading  h2{
+    color: #11117d;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 108px;
+}
+.features-para p{
+color: #313841;
+font-weight: 500;
+text-align: center;
+padding-top: 18px;
+}
+.features-sec-2{
+    max-width: 921px;
+    margin: auto;
+}
+.inner-container{
+    border: solid 1px dimgrey;
+}
+.row{
+           display: inline-grid;
+           grid-template-columns: auto auto auto;
+           padding-top: 66px;
+           padding-bottom: 150px;
+           margin-left: 122px;
+}
+
+.services{
+    margin-right: 66px;
+}
+.services .content h4{
+color: black;
+}
+.services .content p{
+color: #898989;
+font-weight: 400
+}
+
+.department {
+    margin-bottom: 90px;
+    margin-top: 130px;
+}
+
+.dep-heading {
+    text-align: center;
+    color: #11117d;
+}
+
+.dep-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.dep-img img {
+    margin-right: 35px;
+}
+
+footer{
+    padding-bottom: 107px;
+    background: #143154;
+}
+.footer-wrapper{
+    max-width: 1400px;
+    margin: auto;
+}
+.contact-heading h2{
+    color: brown;
+    font-size: 50px;
+font-family: "PT Sans";
+font-weight: 700;
+text-align: center;
+padding-top: 84px;
+}
+.contact-para p{
+color: #898989;
+font-family: "PT Sans";
+font-weight: 400;
+text-align: center;
+}
+.form {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 65px;
+}
+
+input[type="text"] {
+    border: 1px solid #223445;
+    border-radius: 5px;
+    width: 40em;
+    height: 3.5em;
+}
+
+button {
+    background:brown ;
+    text-align: center;
+    border: 1px solid #223445;
+    border-radius: 5px;
+    width: 8em;
+    height: 4em;
+}
+
+.imgs {
+    text-align: center;
+}
+
+.imgs img {
+    margin: 0px 20px 70px 0px;
+    max-width: 40px;
+}
+.footer-sec-3 p{
+color: #ffffff;
+font-weight: 400;
+margin-right: 106px;
+}
+.footer-sec-3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
